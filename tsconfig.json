@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  }
+}

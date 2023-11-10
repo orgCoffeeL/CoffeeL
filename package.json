@@ -1,0 +1,27 @@
+{
+  "name": "coffeel",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "coffeel:build": "tsc",
+    "coffeel:start": "node .",
+    "coffeel:test": "npm run coffeel:build && npm run coffeel:start",
+    "coffeel:lint": "ts-standard",
+    "coffeel:fix": "ts-standard --fix"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "discord-rpc": "^4.0.1",
+    "express": "^4.18.2",
+    "mineflayer": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/discord-rpc": "^4.0.3",
+    "@types/express": "^4.17.14",
+    "@types/node": "^16.11.68",
+    "node": "^16.18.0",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.8.2"
+  }
+}
